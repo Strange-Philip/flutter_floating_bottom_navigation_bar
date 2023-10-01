@@ -2,7 +2,6 @@ import 'package:floating_btn/category.dart';
 import 'package:floating_btn/home.dart';
 import 'package:floating_btn/settings.dart';
 import 'package:flutter/material.dart';
-import 'package:iconly/iconly.dart';
 
 void main() {
   runApp(const MyApp());
@@ -76,44 +75,39 @@ class _MyHomePageState extends State<MyHomePage> {
             items: const [
               BottomNavigationBarItem(
                 icon: Icon(
-                  IconlyLight.home,
+                  Icons.home_outlined,
                   size: 26,
                 ),
                 activeIcon: Icon(
-                  IconlyBold.home,
+                  Icons.home,
                   size: 26,
                 ),
                 label: '',
               ),
               BottomNavigationBarItem(
                 icon: Icon(
-                  IconlyLight.category,
+                  Icons.category_outlined,
                   size: 26,
                 ),
                 activeIcon: Icon(
-                  IconlyBold.category,
+                  Icons.category,
                   size: 26,
                 ),
                 label: '',
               ),
               BottomNavigationBarItem(
                 icon: Icon(
-                  IconlyLight.profile,
+                  Icons.person_2_outlined,
                   size: 26,
                 ),
                 activeIcon: Icon(
-                  IconlyBold.profile,
+                  Icons.person_2,
                   size: 26,
                 ),
                 label: '',
               ),
             ],
           )),
-      // bottomNavigationBar: FloatingActionButton.extended(
-      //   onPressed: () {},
-      //   elevation: 1,
-      //   label: const Icon(Icons.add),
-      // ),
     );
   }
 }

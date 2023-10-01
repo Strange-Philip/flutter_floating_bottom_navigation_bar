@@ -28,7 +28,7 @@ class _SettingsPageState extends State<SettingsPage> {
               backgroundColor: Colors.green,
               radius: 80,
               child: Icon(
-                IconlyBroken.profile,
+                Icons.person,
                 color: Colors.white,
                 size: 50,
               ),
@@ -40,10 +40,7 @@ class _SettingsPageState extends State<SettingsPage> {
             padding: EdgeInsets.all(8.0),
             child: Text(
               "John Doe",
-              style: TextStyle(
-                  color: Colors.green,
-                  fontSize: 25,
-                  fontWeight: FontWeight.w500),
+              style: TextStyle(color: Colors.green, fontSize: 25, fontWeight: FontWeight.w500),
             ),
           ),
         ),
@@ -67,9 +64,7 @@ class _SettingsPageState extends State<SettingsPage> {
                 Text(
                   "Some Text",
                   style: TextStyle(
-                      color: Colors.green[700],
-                      fontSize: 20,
-                      fontWeight: FontWeight.w400),
+                      color: Colors.green[700], fontSize: 20, fontWeight: FontWeight.w400),
                 ),
                 Icon(
                   Icons.arrow_forward_ios,
@@ -96,9 +91,7 @@ class _SettingsPageState extends State<SettingsPage> {
                 Text(
                   "Some Text",
                   style: TextStyle(
-                      color: Colors.green[700],
-                      fontSize: 20,
-                      fontWeight: FontWeight.w400),
+                      color: Colors.green[700], fontSize: 20, fontWeight: FontWeight.w400),
                 ),
                 Icon(
                   Icons.arrow_forward_ios,
@@ -125,9 +118,7 @@ class _SettingsPageState extends State<SettingsPage> {
                 Text(
                   "Some Text",
                   style: TextStyle(
-                      color: Colors.green[700],
-                      fontSize: 20,
-                      fontWeight: FontWeight.w400),
+                      color: Colors.green[700], fontSize: 20, fontWeight: FontWeight.w400),
                 ),
                 Icon(
                   Icons.arrow_forward_ios,
@@ -154,9 +145,7 @@ class _SettingsPageState extends State<SettingsPage> {
                 Text(
                   "Some Text",
                   style: TextStyle(
-                      color: Colors.green[700],
-                      fontSize: 20,
-                      fontWeight: FontWeight.w400),
+                      color: Colors.green[700], fontSize: 20, fontWeight: FontWeight.w400),
                 ),
                 Icon(
                   Icons.arrow_forward_ios,
@@ -182,10 +171,8 @@ class _SettingsPageState extends State<SettingsPage> {
               children: [
                 Text(
                   "Logout",
-                  style: TextStyle(
-                      color: Colors.red[700],
-                      fontSize: 20,
-                      fontWeight: FontWeight.w400),
+                  style:
+                      TextStyle(color: Colors.red[700], fontSize: 20, fontWeight: FontWeight.w400),
                 ),
                 Icon(
                   IconlyLight.logout,
